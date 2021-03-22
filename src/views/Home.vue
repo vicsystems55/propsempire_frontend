@@ -134,7 +134,7 @@ export default {
     load_listings(){
       this.show = true
 
-      axios.get('https://app.propsempire.com/all_listings', {
+      axios.get('https://app.propsempire.com/api/all_listings', {
             params: {
               ID: 12345
             }
